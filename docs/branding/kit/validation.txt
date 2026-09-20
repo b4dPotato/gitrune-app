@@ -1,0 +1,9 @@
+155 files exist; SVGs render without fonts or embedded raster images; PNGs are 8-bit RGBA.
+desktop/windows/icon.ico: verified frames 32, 16, 24, 48, 64, 128, 256 px.
+website/favicon.ico: verified frames 16, 32, 48 px.
+ICNS header, length and representations verified: ic11, ic10, ic14, ic07, ic12, il32, l8mk, ic08, is32, s8mk, ic13, ic09.
+All ten macOS asset-catalog slots resolve to correctly sized PNGs.
+Website icon references resolve; touch/maskable icons are opaque; maskable artwork fits the 40% radius safe circle.
+Approved-original vs vector foreground overlap: 99.70% (intersection over union).
+
+Native macOS/Linux shell appearance and release builds still require target-platform validation.

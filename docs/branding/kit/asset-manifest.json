@@ -1,0 +1,1064 @@
+{
+  "brand": "Gitrune",
+  "source": "master/approved-original.png",
+  "assets": [
+    {
+      "path": "README.md",
+      "bytes": 9961
+    },
+    {
+      "path": "desktop/linux/hicolor/1024x1024/apps/gitrune.png",
+      "bytes": 58530,
+      "width": 1024,
+      "height": 1024,
+      "hasAlpha": true
+    },
+    {
+      "path": "desktop/linux/hicolor/128x128/apps/gitrune.png",
+      "bytes": 4340,
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true
+    },
+    {
+      "path": "desktop/linux/hicolor/16x16/apps/gitrune.png",
+      "bytes": 570,
+      "width": 16,
+      "height": 16,
+      "hasAlpha": true
+    },
+    {
+      "path": "desktop/linux/hicolor/24x24/apps/gitrune.png",
+      "bytes": 827,
+      "width": 24,
+      "height": 24,
+      "hasAlpha": true
+    },
+    {
+      "path": "desktop/linux/hicolor/256x256/apps/gitrune.png",
+      "bytes": 9544,
+      "width": 256,
+      "height": 256,
+      "hasAlpha": true
+    },
+    {
+      "path": "desktop/linux/hicolor/32x32/apps/gitrune.png",
+      "bytes": 1113,
+      "width": 32,
+      "height": 32,
+      "hasAlpha": true
+    },
+    {
+      "path": "desktop/linux/hicolor/48x48/apps/gitrune.png",
+      "bytes": 1618,
+      "width": 48,
+      "height": 48,
+      "hasAlpha": true
+    },
+    {
+      "path": "desktop/linux/hicolor/512x512/apps/gitrune.png",
+      "bytes": 22824,
+      "width": 512,
+      "height": 512,
+      "hasAlpha": true
+    },
+    {
+      "path": "desktop/linux/hicolor/64x64/apps/gitrune.png",
+      "bytes": 2147,
+      "width": 64,
+      "height": 64,
+      "hasAlpha": true
+    },
+    {
+      "path": "desktop/linux/hicolor/96x96/apps/gitrune.png",
+      "bytes": 3267,
+      "width": 96,
+      "height": 96,
+      "hasAlpha": true
+    },
+    {
+      "path": "desktop/linux/hicolor/scalable/apps/gitrune.svg",
+      "bytes": 4847,
+      "width": 1254,
+      "height": 1254,
+      "hasAlpha": true
+    },
+    {
+      "path": "desktop/macos/AppIcon.appiconset/Contents.json",
+      "bytes": 1259
+    },
+    {
+      "path": "desktop/macos/AppIcon.appiconset/icon_128x128.png",
+      "bytes": 4340,
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true
+    },
+    {
+      "path": "desktop/macos/AppIcon.appiconset/icon_128x128@2x.png",
+      "bytes": 9544,
+      "width": 256,
+      "height": 256,
+      "hasAlpha": true
+    },
+    {
+      "path": "desktop/macos/AppIcon.appiconset/icon_16x16.png",
+      "bytes": 570,
+      "width": 16,
+      "height": 16,
+      "hasAlpha": true
+    },
+    {
+      "path": "desktop/macos/AppIcon.appiconset/icon_16x16@2x.png",
+      "bytes": 1113,
+      "width": 32,
+      "height": 32,
+      "hasAlpha": true
+    },
+    {
+      "path": "desktop/macos/AppIcon.appiconset/icon_256x256.png",
+      "bytes": 9544,
+      "width": 256,
+      "height": 256,
+      "hasAlpha": true
+    },
+    {
+      "path": "desktop/macos/AppIcon.appiconset/icon_256x256@2x.png",
+      "bytes": 22824,
+      "width": 512,
+      "height": 512,
+      "hasAlpha": true
+    },
+    {
+      "path": "desktop/macos/AppIcon.appiconset/icon_32x32.png",
+      "bytes": 1113,
+      "width": 32,
+      "height": 32,
+      "hasAlpha": true
+    },
+    {
+      "path": "desktop/macos/AppIcon.appiconset/icon_32x32@2x.png",
+      "bytes": 2147,
+      "width": 64,
+      "height": 64,
+      "hasAlpha": true
+    },
+    {
+      "path": "desktop/macos/AppIcon.appiconset/icon_512x512.png",
+      "bytes": 22824,
+      "width": 512,
+      "height": 512,
+      "hasAlpha": true
+    },
+    {
+      "path": "desktop/macos/AppIcon.appiconset/icon_512x512@2x.png",
+      "bytes": 58530,
+      "width": 1024,
+      "height": 1024,
+      "hasAlpha": true
+    },
+    {
+      "path": "desktop/macos/Gitrune.iconset/icon_128x128.png",
+      "bytes": 4340,
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true
+    },
+    {
+      "path": "desktop/macos/Gitrune.iconset/icon_128x128@2x.png",
+      "bytes": 9544,
+      "width": 256,
+      "height": 256,
+      "hasAlpha": true
+    },
+    {
+      "path": "desktop/macos/Gitrune.iconset/icon_16x16.png",
+      "bytes": 570,
+      "width": 16,
+      "height": 16,
+      "hasAlpha": true
+    },
+    {
+      "path": "desktop/macos/Gitrune.iconset/icon_16x16@2x.png",
+      "bytes": 1113,
+      "width": 32,
+      "height": 32,
+      "hasAlpha": true
+    },
+    {
+      "path": "desktop/macos/Gitrune.iconset/icon_256x256.png",
+      "bytes": 9544,
+      "width": 256,
+      "height": 256,
+      "hasAlpha": true
+    },
+    {
+      "path": "desktop/macos/Gitrune.iconset/icon_256x256@2x.png",
+      "bytes": 22824,
+      "width": 512,
+      "height": 512,
+      "hasAlpha": true
+    },
+    {
+      "path": "desktop/macos/Gitrune.iconset/icon_32x32.png",
+      "bytes": 1113,
+      "width": 32,
+      "height": 32,
+      "hasAlpha": true
+    },
+    {
+      "path": "desktop/macos/Gitrune.iconset/icon_32x32@2x.png",
+      "bytes": 2147,
+      "width": 64,
+      "height": 64,
+      "hasAlpha": true
+    },
+    {
+      "path": "desktop/macos/Gitrune.iconset/icon_512x512.png",
+      "bytes": 22824,
+      "width": 512,
+      "height": 512,
+      "hasAlpha": true
+    },
+    {
+      "path": "desktop/macos/Gitrune.iconset/icon_512x512@2x.png",
+      "bytes": 58530,
+      "width": 1024,
+      "height": 1024,
+      "hasAlpha": true
+    },
+    {
+      "path": "desktop/macos/icon-composer/background.png",
+      "bytes": 23063,
+      "width": 1024,
+      "height": 1024,
+      "hasAlpha": true
+    },
+    {
+      "path": "desktop/macos/icon-composer/background.svg",
+      "bytes": 180,
+      "width": 1024,
+      "height": 1024,
+      "hasAlpha": true
+    },
+    {
+      "path": "desktop/macos/icon-composer/foreground.png",
+      "bytes": 36442,
+      "width": 1024,
+      "height": 1024,
+      "hasAlpha": true
+    },
+    {
+      "path": "desktop/macos/icon-composer/foreground.svg",
+      "bytes": 4042,
+      "width": 1024,
+      "height": 1024,
+      "hasAlpha": true
+    },
+    {
+      "path": "desktop/macos/icon.icns",
+      "bytes": 86658
+    },
+    {
+      "path": "desktop/png/1024x1024.png",
+      "bytes": 58530,
+      "width": 1024,
+      "height": 1024,
+      "hasAlpha": true
+    },
+    {
+      "path": "desktop/png/128x128.png",
+      "bytes": 4340,
+      "width": 128,
+      "height": 128,
+      "hasAlpha": true
+    },
+    {
+      "path": "desktop/png/16x16.png",
+      "bytes": 570,
+      "width": 16,
+      "height": 16,
+      "hasAlpha": true
+    },
+    {
+      "path": "desktop/png/24x24.png",
+      "bytes": 827,
+      "width": 24,
+      "height": 24,
+      "hasAlpha": true
+    },
+    {
+      "path": "desktop/png/256x256.png",
+      "bytes": 9544,
+      "width": 256,
+      "height": 256,
+      "hasAlpha": true
+    },
+    {
+      "path": "desktop/png/32x32.png",
+      "bytes": 1113,
+      "width": 32,
+      "height": 32,
+      "hasAlpha": true
+    },
+    {
+      "path": "desktop/png/48x48.png",
+      "bytes": 1618,
+      "width": 48,
+      "height": 48,
+      "hasAlpha": true
+    },
+    {
+      "path": "desktop/png/512x512.png",
+      "bytes": 22824,
+      "width": 512,
+      "height": 512,
+      "hasAlpha": true
+    },
+    {
+      "path": "desktop/png/64x64.png",
+      "bytes": 2147,
+      "width": 64,
+      "height": 64,
+      "hasAlpha": true
+    },
+    {
+      "path": "desktop/png/96x96.png",
+      "bytes": 3267,
+      "width": 96,
+      "height": 96,
+      "hasAlpha": true
+    },
+    {
+      "path": "desktop/windows/icon.ico",
+      "bytes": 20277
+    },
+    {
+      "path": "licenses/Inter-OFL.txt",
+      "bytes": 4477
+    },
+    {
+      "path": "logos/horizontal-black.png",
+      "bytes": 7849,
+      "width": 600,
+      "height": 160,
+      "hasAlpha": true
+    },
+    {
+      "path": "logos/horizontal-black.svg",
+      "bytes": 8272,
+      "width": 600,
+      "height": 160,
+      "hasAlpha": true
+    },
+    {
+      "path": "logos/horizontal-black@2x.png",
+      "bytes": 18256,
+      "width": 1200,
+      "height": 320,
+      "hasAlpha": true
+    },
+    {
+      "path": "logos/horizontal-on-dark.png",
+      "bytes": 10738,
+      "width": 600,
+      "height": 160,
+      "hasAlpha": true
+    },
+    {
+      "path": "logos/horizontal-on-dark.svg",
+      "bytes": 7346,
+      "width": 600,
+      "height": 160,
+      "hasAlpha": true
+    },
+    {
+      "path": "logos/horizontal-on-dark@2x.png",
+      "bytes": 24643,
+      "width": 1200,
+      "height": 320,
+      "hasAlpha": true
+    },
+    {
+      "path": "logos/horizontal-on-light.png",
+      "bytes": 10578,
+      "width": 600,
+      "height": 160,
+      "hasAlpha": true
+    },
+    {
+      "path": "logos/horizontal-on-light.svg",
+      "bytes": 7346,
+      "width": 600,
+      "height": 160,
+      "hasAlpha": true
+    },
+    {
+      "path": "logos/horizontal-on-light@2x.png",
+      "bytes": 24306,
+      "width": 1200,
+      "height": 320,
+      "hasAlpha": true
+    },
+    {
+      "path": "logos/horizontal-white.png",
+      "bytes": 7881,
+      "width": 600,
+      "height": 160,
+      "hasAlpha": true
+    },
+    {
+      "path": "logos/horizontal-white.svg",
+      "bytes": 8272,
+      "width": 600,
+      "height": 160,
+      "hasAlpha": true
+    },
+    {
+      "path": "logos/horizontal-white@2x.png",
+      "bytes": 17969,
+      "width": 1200,
+      "height": 320,
+      "hasAlpha": true
+    },
+    {
+      "path": "logos/mark-1024.png",
+      "bytes": 54798,
+      "width": 1024,
+      "height": 1024,
+      "hasAlpha": true
+    },
+    {
+      "path": "logos/mark-2048.png",
+      "bytes": 139423,
+      "width": 2048,
+      "height": 2048,
+      "hasAlpha": true
+    },
+    {
+      "path": "logos/mark-256.png",
+      "bytes": 9732,
+      "width": 256,
+      "height": 256,
+      "hasAlpha": true
+    },
+    {
+      "path": "logos/mark-512.png",
+      "bytes": 22607,
+      "width": 512,
+      "height": 512,
+      "hasAlpha": true
+    },
+    {
+      "path": "logos/mark-black-1024.png",
+      "bytes": 42866,
+      "width": 1024,
+      "height": 1024,
+      "hasAlpha": true
+    },
+    {
+      "path": "logos/mark-black-2048.png",
+      "bytes": 111084,
+      "width": 2048,
+      "height": 2048,
+      "hasAlpha": true
+    },
+    {
+      "path": "logos/mark-black-256.png",
+      "bytes": 7325,
+      "width": 256,
+      "height": 256,
+      "hasAlpha": true
+    },
+    {
+      "path": "logos/mark-black-512.png",
+      "bytes": 17254,
+      "width": 512,
+      "height": 512,
+      "hasAlpha": true
+    },
+    {
+      "path": "logos/mark-black.svg",
+      "bytes": 5000,
+      "width": 820,
+      "height": 820,
+      "hasAlpha": true
+    },
+    {
+      "path": "logos/mark-on-light-1024.png",
+      "bytes": 53785,
+      "width": 1024,
+      "height": 1024,
+      "hasAlpha": true
+    },
+    {
+      "path": "logos/mark-on-light-2048.png",
+      "bytes": 136757,
+      "width": 2048,
+      "height": 2048,
+      "hasAlpha": true
+    },
+    {
+      "path": "logos/mark-on-light-256.png",
+      "bytes": 9503,
+      "width": 256,
+      "height": 256,
+      "hasAlpha": true
+    },
+    {
+      "path": "logos/mark-on-light-512.png",
+      "bytes": 22072,
+      "width": 512,
+      "height": 512,
+      "hasAlpha": true
+    },
+    {
+      "path": "logos/mark-on-light.svg",
+      "bytes": 4074,
+      "width": 820,
+      "height": 820,
+      "hasAlpha": true
+    },
+    {
+      "path": "logos/mark-white-1024.png",
+      "bytes": 37587,
+      "width": 1024,
+      "height": 1024,
+      "hasAlpha": true
+    },
+    {
+      "path": "logos/mark-white-2048.png",
+      "bytes": 85705,
+      "width": 2048,
+      "height": 2048,
+      "hasAlpha": true
+    },
+    {
+      "path": "logos/mark-white-256.png",
+      "bytes": 7364,
+      "width": 256,
+      "height": 256,
+      "hasAlpha": true
+    },
+    {
+      "path": "logos/mark-white-512.png",
+      "bytes": 16663,
+      "width": 512,
+      "height": 512,
+      "hasAlpha": true
+    },
+    {
+      "path": "logos/mark-white.svg",
+      "bytes": 5000,
+      "width": 820,
+      "height": 820,
+      "hasAlpha": true
+    },
+    {
+      "path": "logos/mark.svg",
+      "bytes": 4074,
+      "width": 820,
+      "height": 820,
+      "hasAlpha": true
+    },
+    {
+      "path": "logos/stacked-black.png",
+      "bytes": 12915,
+      "width": 480,
+      "height": 520,
+      "hasAlpha": true
+    },
+    {
+      "path": "logos/stacked-black.svg",
+      "bytes": 8440,
+      "width": 480,
+      "height": 520,
+      "hasAlpha": true
+    },
+    {
+      "path": "logos/stacked-black@2x.png",
+      "bytes": 30671,
+      "width": 960,
+      "height": 1040,
+      "hasAlpha": true
+    },
+    {
+      "path": "logos/stacked-on-dark.png",
+      "bytes": 17146,
+      "width": 480,
+      "height": 520,
+      "hasAlpha": true
+    },
+    {
+      "path": "logos/stacked-on-dark.svg",
+      "bytes": 7514,
+      "width": 480,
+      "height": 520,
+      "hasAlpha": true
+    },
+    {
+      "path": "logos/stacked-on-dark@2x.png",
+      "bytes": 40057,
+      "width": 960,
+      "height": 1040,
+      "hasAlpha": true
+    },
+    {
+      "path": "logos/stacked-on-light.png",
+      "bytes": 16890,
+      "width": 480,
+      "height": 520,
+      "hasAlpha": true
+    },
+    {
+      "path": "logos/stacked-on-light.svg",
+      "bytes": 7514,
+      "width": 480,
+      "height": 520,
+      "hasAlpha": true
+    },
+    {
+      "path": "logos/stacked-on-light@2x.png",
+      "bytes": 39438,
+      "width": 960,
+      "height": 1040,
+      "hasAlpha": true
+    },
+    {
+      "path": "logos/stacked-white.png",
+      "bytes": 12824,
+      "width": 480,
+      "height": 520,
+      "hasAlpha": true
+    },
+    {
+      "path": "logos/stacked-white.svg",
+      "bytes": 8440,
+      "width": 480,
+      "height": 520,
+      "hasAlpha": true
+    },
+    {
+      "path": "logos/stacked-white@2x.png",
+      "bytes": 29927,
+      "width": 960,
+      "height": 1040,
+      "hasAlpha": true
+    },
+    {
+      "path": "master/app-icon-1024.png",
+      "bytes": 58530,
+      "width": 1024,
+      "height": 1024,
+      "hasAlpha": true
+    },
+    {
+      "path": "master/app-icon-2048.png",
+      "bytes": 156489,
+      "width": 2048,
+      "height": 2048,
+      "hasAlpha": true
+    },
+    {
+      "path": "master/app-icon.svg",
+      "bytes": 4847,
+      "width": 1254,
+      "height": 1254,
+      "hasAlpha": true
+    },
+    {
+      "path": "master/approved-original.png",
+      "bytes": 920600,
+      "width": 1254,
+      "height": 1254,
+      "hasAlpha": true
+    },
+    {
+      "path": "master/concept-prompt.md",
+      "bytes": 2082
+    },
+    {
+      "path": "master/mark-black.svg",
+      "bytes": 5000,
+      "width": 820,
+      "height": 820,
+      "hasAlpha": true
+    },
+    {
+      "path": "master/mark-on-light.svg",
+      "bytes": 4074,
+      "width": 820,
+      "height": 820,
+      "hasAlpha": true
+    },
+    {
+      "path": "master/mark-white.svg",
+      "bytes": 5000,
+      "width": 820,
+      "height": 820,
+      "hasAlpha": true
+    },
+    {
+      "path": "master/mark.svg",
+      "bytes": 4074,
+      "width": 820,
+      "height": 820,
+      "hasAlpha": true
+    },
+    {
+      "path": "optional/tray/black-16.png",
+      "bytes": 435,
+      "width": 16,
+      "height": 16,
+      "hasAlpha": true
+    },
+    {
+      "path": "optional/tray/black-18.png",
+      "bytes": 460,
+      "width": 18,
+      "height": 18,
+      "hasAlpha": true
+    },
+    {
+      "path": "optional/tray/black-20.png",
+      "bytes": 520,
+      "width": 20,
+      "height": 20,
+      "hasAlpha": true
+    },
+    {
+      "path": "optional/tray/black-22.png",
+      "bytes": 562,
+      "width": 22,
+      "height": 22,
+      "hasAlpha": true
+    },
+    {
+      "path": "optional/tray/black-24.png",
+      "bytes": 617,
+      "width": 24,
+      "height": 24,
+      "hasAlpha": true
+    },
+    {
+      "path": "optional/tray/black-32.png",
+      "bytes": 817,
+      "width": 32,
+      "height": 32,
+      "hasAlpha": true
+    },
+    {
+      "path": "optional/tray/black-36.png",
+      "bytes": 903,
+      "width": 36,
+      "height": 36,
+      "hasAlpha": true
+    },
+    {
+      "path": "optional/tray/black-40.png",
+      "bytes": 1013,
+      "width": 40,
+      "height": 40,
+      "hasAlpha": true
+    },
+    {
+      "path": "optional/tray/black-44.png",
+      "bytes": 1125,
+      "width": 44,
+      "height": 44,
+      "hasAlpha": true
+    },
+    {
+      "path": "optional/tray/black-48.png",
+      "bytes": 1240,
+      "width": 48,
+      "height": 48,
+      "hasAlpha": true
+    },
+    {
+      "path": "optional/tray/tray-template.svg",
+      "bytes": 5000,
+      "width": 820,
+      "height": 820,
+      "hasAlpha": true
+    },
+    {
+      "path": "optional/tray/trayTemplate.png",
+      "bytes": 460,
+      "width": 18,
+      "height": 18,
+      "hasAlpha": true
+    },
+    {
+      "path": "optional/tray/trayTemplate@2x.png",
+      "bytes": 903,
+      "width": 36,
+      "height": 36,
+      "hasAlpha": true
+    },
+    {
+      "path": "optional/tray/white-16.png",
+      "bytes": 435,
+      "width": 16,
+      "height": 16,
+      "hasAlpha": true
+    },
+    {
+      "path": "optional/tray/white-18.png",
+      "bytes": 469,
+      "width": 18,
+      "height": 18,
+      "hasAlpha": true
+    },
+    {
+      "path": "optional/tray/white-20.png",
+      "bytes": 522,
+      "width": 20,
+      "height": 20,
+      "hasAlpha": true
+    },
+    {
+      "path": "optional/tray/white-22.png",
+      "bytes": 577,
+      "width": 22,
+      "height": 22,
+      "hasAlpha": true
+    },
+    {
+      "path": "optional/tray/white-24.png",
+      "bytes": 627,
+      "width": 24,
+      "height": 24,
+      "hasAlpha": true
+    },
+    {
+      "path": "optional/tray/white-32.png",
+      "bytes": 835,
+      "width": 32,
+      "height": 32,
+      "hasAlpha": true
+    },
+    {
+      "path": "optional/tray/white-36.png",
+      "bytes": 929,
+      "width": 36,
+      "height": 36,
+      "hasAlpha": true
+    },
+    {
+      "path": "optional/tray/white-40.png",
+      "bytes": 1032,
+      "width": 40,
+      "height": 40,
+      "hasAlpha": true
+    },
+    {
+      "path": "optional/tray/white-44.png",
+      "bytes": 1138,
+      "width": 44,
+      "height": 44,
+      "hasAlpha": true
+    },
+    {
+      "path": "optional/tray/white-48.png",
+      "bytes": 1262,
+      "width": 48,
+      "height": 48,
+      "hasAlpha": true
+    },
+    {
+      "path": "preview.png",
+      "bytes": 96784,
+      "width": 1200,
+      "height": 850,
+      "hasAlpha": true
+    },
+    {
+      "path": "social/avatar-1024.png",
+      "bytes": 58530,
+      "width": 1024,
+      "height": 1024,
+      "hasAlpha": true
+    },
+    {
+      "path": "social/avatar-512.png",
+      "bytes": 22824,
+      "width": 512,
+      "height": 512,
+      "hasAlpha": true
+    },
+    {
+      "path": "social/open-graph.png",
+      "bytes": 45496,
+      "width": 1200,
+      "height": 630,
+      "hasAlpha": true
+    },
+    {
+      "path": "social/open-graph.svg",
+      "bytes": 31620,
+      "width": 1200,
+      "height": 630,
+      "hasAlpha": true
+    },
+    {
+      "path": "social/social-wide.png",
+      "bytes": 43747,
+      "width": 1200,
+      "height": 600,
+      "hasAlpha": true
+    },
+    {
+      "path": "social/social-wide.svg",
+      "bytes": 31596,
+      "width": 1200,
+      "height": 600,
+      "hasAlpha": true
+    },
+    {
+      "path": "website/apple-touch-icon.png",
+      "bytes": 5097,
+      "width": 180,
+      "height": 180,
+      "hasAlpha": true
+    },
+    {
+      "path": "website/favicon-16x16.png",
+      "bytes": 602,
+      "width": 16,
+      "height": 16,
+      "hasAlpha": true
+    },
+    {
+      "path": "website/favicon-32x32.png",
+      "bytes": 1138,
+      "width": 32,
+      "height": 32,
+      "hasAlpha": true
+    },
+    {
+      "path": "website/favicon-48x48.png",
+      "bytes": 1685,
+      "width": 48,
+      "height": 48,
+      "hasAlpha": true
+    },
+    {
+      "path": "website/favicon-96x96.png",
+      "bytes": 3253,
+      "width": 96,
+      "height": 96,
+      "hasAlpha": true
+    },
+    {
+      "path": "website/favicon.ico",
+      "bytes": 3479
+    },
+    {
+      "path": "website/favicon.svg",
+      "bytes": 4074,
+      "width": 820,
+      "height": 820,
+      "hasAlpha": true
+    },
+    {
+      "path": "website/head-snippet.html",
+      "bytes": 1628
+    },
+    {
+      "path": "website/horizontal-on-dark.svg",
+      "bytes": 7346,
+      "width": 600,
+      "height": 160,
+      "hasAlpha": true
+    },
+    {
+      "path": "website/horizontal-on-light.svg",
+      "bytes": 7346,
+      "width": 600,
+      "height": 160,
+      "hasAlpha": true
+    },
+    {
+      "path": "website/icon-192.png",
+      "bytes": 6750,
+      "width": 192,
+      "height": 192,
+      "hasAlpha": true
+    },
+    {
+      "path": "website/icon-512.png",
+      "bytes": 22824,
+      "width": 512,
+      "height": 512,
+      "hasAlpha": true
+    },
+    {
+      "path": "website/mark-black.svg",
+      "bytes": 5000,
+      "width": 820,
+      "height": 820,
+      "hasAlpha": true
+    },
+    {
+      "path": "website/mark-on-light.svg",
+      "bytes": 4074,
+      "width": 820,
+      "height": 820,
+      "hasAlpha": true
+    },
+    {
+      "path": "website/mark-white.svg",
+      "bytes": 5000,
+      "width": 820,
+      "height": 820,
+      "hasAlpha": true
+    },
+    {
+      "path": "website/mark.svg",
+      "bytes": 4074,
+      "width": 820,
+      "height": 820,
+      "hasAlpha": true
+    },
+    {
+      "path": "website/maskable-192.png",
+      "bytes": 4832,
+      "width": 192,
+      "height": 192,
+      "hasAlpha": true
+    },
+    {
+      "path": "website/maskable-512.png",
+      "bytes": 17573,
+      "width": 512,
+      "height": 512,
+      "hasAlpha": true
+    },
+    {
+      "path": "website/open-graph.png",
+      "bytes": 45496,
+      "width": 1200,
+      "height": 630,
+      "hasAlpha": true
+    },
+    {
+      "path": "website/safari-pinned-tab.svg",
+      "bytes": 5000,
+      "width": 820,
+      "height": 820,
+      "hasAlpha": true
+    },
+    {
+      "path": "website/site.webmanifest",
+      "bytes": 732
+    },
+    {
+      "path": "website/social-wide.png",
+      "bytes": 43747,
+      "width": 1200,
+      "height": 600,
+      "hasAlpha": true
+    }
+  ]
+}
