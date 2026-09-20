@@ -1,0 +1,9 @@
+Gitrune
+Copyright 2026 Gitrune contributors
+
+This product includes the Inter typeface, distributed under the SIL Open Font
+License 1.1. Its license text is available at
+docs/branding/kit/licenses/Inter-OFL.txt.
+
+Third-party software remains subject to its respective license. See
+THIRD_PARTY_NOTICES.md and the npm and Cargo lockfiles for dependency details.
