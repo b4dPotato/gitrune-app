@@ -1765,6 +1765,9 @@ mod safety_integration_tests {
     fn initialized_repo(path: &Path) {
         std::fs::create_dir_all(path).unwrap();
         git::run_ok(path, &["init", "-b", "main"], None).unwrap();
+        // Test fixtures must not inherit a runner's global line-ending policy.
+        // Otherwise a checkout can turn the LF bytes written below into CRLF.
+        git::run_ok(path, &["config", "core.autocrlf", "false"], None).unwrap();
         git::run_ok(path, &["config", "user.name", "Gitrune Tests"], None).unwrap();
         git::run_ok(
             path,
