@@ -2,10 +2,17 @@
 
 [![CI](https://github.com/b4dPotato/gitrune-app/actions/workflows/ci.yml/badge.svg)](https://github.com/b4dPotato/gitrune-app/actions/workflows/ci.yml)
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
+[![Windows release](https://img.shields.io/github/v/release/b4dPotato/gitrune-app?include_prereleases&label=Windows%20download)](https://github.com/b4dPotato/gitrune-app/releases)
 
 > **Alpha:** Gitrune is Windows-first, unsigned, and not yet release-certified. Back up important repositories and review the [known release work](docs/REQUIRED_WORK.md) before relying on it for critical workflows.
 
 Gitrune is a Windows-first, local desktop Git client built with Tauri 2, React, TypeScript, Rust, and the system Git executable. It combines a visual commit graph with the daily repository operations expected from desktop clients, without a hosted backend, product account, or paid feature gate.
+
+## Download
+
+Download the latest Windows installer or standalone ZIP from [GitHub Releases](https://github.com/b4dPotato/gitrune-app/releases). The NSIS `*-setup.exe` is recommended for most users. Builds are currently unsigned alpha releases, so Windows SmartScreen may show an unrecognized-app warning. Verify the published SHA-256 checksums before running a download.
+
+macOS and Linux binaries are not published yet. Contributors can follow the [native build instructions for Windows, macOS, and Linux](docs/BUILDING.md); those two platforms remain experimental until their smoke tests are complete.
 
 Repository contents remain on disk. The app stores only local preferences, registered repository paths, operation history, and recovery metadata in SQLite. Authentication continues to use the user's existing Git credential helpers, SSH configuration, and agent; the app stores no credentials.
 
@@ -36,7 +43,7 @@ The [brand kit](docs/branding/kit/README.md) includes SVG logos, light/dark word
 
 Gitrune retains the internal bundle identifier `dev.eduard.gitapp` and database filename `gitapp.sqlite` for compatibility with existing local data. These are persistence identifiers, not the product name. The package and executable are named `gitrune`.
 
-## Requirements
+## Requirements for building from source
 
 - Windows 10/11 with WebView2
 - Git 2.31 or newer on `PATH`
@@ -68,6 +75,8 @@ npm run package:windows
 `npm run verify` runs the dependency audit, Prettier check, Vitest, TypeScript/Vite production compilation, Rust formatting, strict Clippy, and Rust tests. Rust fixtures create disposable repositories and local bare remotes; they do not need internet access. `npm run package:windows` additionally creates NSIS/MSI installers, `artifacts/Gitrune-<version>-windows-x64-portable.zip`, and its SHA-256 checksum.
 
 Before treating a package as a release candidate, complete the [Windows desktop smoke test](docs/WINDOWS_SMOKE_TEST.md).
+
+For complete platform prerequisites, output locations, and macOS/Linux commands, see [Building Gitrune from source](docs/BUILDING.md).
 
 ## Contributing and support
 

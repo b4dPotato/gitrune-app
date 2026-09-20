@@ -4,6 +4,8 @@ All notable user-visible changes will be documented in this file. Gitrune follow
 
 ## [Unreleased]
 
+## [0.1.0] - 2026-09-20
+
 ### Added
 
 - Windows-first local Git workflow covering repository setup, changes, commits, branches, remotes, stashes, tags, worktrees, conflicts, operation history, and recovery.
@@ -23,3 +25,4 @@ All notable user-visible changes will be documented in this file. Gitrune follow
 - CI performs npm and Rust advisory checks and reviews dependency changes.
 
 [Unreleased]: https://github.com/b4dPotato/gitrune-app/commits/main
+[0.1.0]: https://github.com/b4dPotato/gitrune-app/releases/tag/v0.1.0

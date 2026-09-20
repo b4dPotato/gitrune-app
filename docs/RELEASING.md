@@ -19,6 +19,8 @@ Keep `package.json`, `src-tauri/Cargo.toml`, and `src-tauri/tauri.conf.json` on 
 9. Update `CHANGELOG.md`, version fields, release notes, compatibility notes, and known issues.
 10. Tag only the exact reviewed commit.
 
+Pushing a `v*` tag starts `.github/workflows/release-windows.yml`. The workflow repeats verification on a clean Windows runner, creates NSIS/MSI installers and the standalone ZIP, generates SHA-256 files, and publishes a GitHub pre-release. Do not push the release tag until the commit's normal CI run is green.
+
 Do not call an archive “portable” as a guarantee that it leaves no local data; the current standalone executable still uses the normal local application-data directory. Do not present unsigned alpha artifacts as trusted production releases.
 
 Code signing, reproducible-build certification, a generated SBOM/license report, and automatic updates remain release blockers tracked in `docs/REQUIRED_WORK.md`.
