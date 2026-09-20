@@ -1,0 +1,311 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============ Gitrune design tokens (from Gitrune.dc.html) ============ */
+:root {
+  --bg: #0e1216;
+  --panel: #141a1f;
+  --panel2: #1a2128;
+  --hover: #1e262e;
+  --active: #243039;
+  --bd: #232c34;
+  --bd2: #313c46;
+  --tx: #d5dde4;
+  --tx2: #8a97a3;
+  --tx3: #5e6b77;
+  --ac: #34c0a2;
+  --ac-hover: #2eaa90;
+  --ac-active: #278f7a;
+  --acbg: rgba(52, 192, 162, 0.13);
+  --acbd: rgba(52, 192, 162, 0.4);
+  --actx: #41d0b1;
+  --ok: #4dbb70;
+  --okbg: rgba(77, 187, 112, 0.13);
+  --wn: #d8a544;
+  --wnbg: rgba(216, 165, 68, 0.13);
+  --er: #e2635f;
+  --erbg: rgba(226, 99, 95, 0.13);
+  --inf: #5f9df6;
+  --infbg: rgba(95, 157, 246, 0.13);
+  --pur: #a98bf2;
+  --purbg: rgba(169, 139, 242, 0.13);
+  --on-ac: #07211b;
+  --addbg: rgba(77, 187, 112, 0.09);
+  --delbg: rgba(226, 99, 95, 0.09);
+}
+
+[data-theme="light"] {
+  --bg: #edf0f2;
+  --panel: #ffffff;
+  --panel2: #f5f7f8;
+  --hover: #eef1f3;
+  --active: #dfeeea;
+  --bd: #dde3e8;
+  --bd2: #c9d2d9;
+  --tx: #1d272f;
+  --tx2: #5c6b76;
+  --tx3: #93a0aa;
+  --ac: #087f6d;
+  --ac-hover: #066a5c;
+  --ac-active: #05584d;
+  --acbg: rgba(8, 127, 109, 0.1);
+  --acbd: rgba(8, 127, 109, 0.35);
+  --actx: #0c8a72;
+  --ok: #2f9e55;
+  --okbg: rgba(47, 158, 85, 0.11);
+  --wn: #a97a17;
+  --wnbg: rgba(169, 122, 23, 0.12);
+  --er: #cf4d49;
+  --erbg: rgba(207, 77, 73, 0.1);
+  --inf: #2e77d4;
+  --infbg: rgba(46, 119, 212, 0.1);
+  --pur: #7b5ce0;
+  --purbg: rgba(123, 92, 224, 0.1);
+  --on-ac: #f4fffc;
+  --addbg: rgba(47, 158, 85, 0.1);
+  --delbg: rgba(207, 77, 73, 0.1);
+}
+
+[data-theme="dracula"] {
+  --bg: #282a36;
+  --panel: #21222c;
+  --panel2: #30313d;
+  --hover: #343746;
+  --active: #44475a;
+  --bd: #343746;
+  --bd2: #6272a4;
+  --tx: #f8f8f2;
+  --tx2: #c6c7d0;
+  --tx3: #85889a;
+  --ac: #bd93f9;
+  --ac-hover: #aa7fea;
+  --ac-active: #9468d5;
+  --acbg: rgba(189, 147, 249, 0.14);
+  --acbd: rgba(189, 147, 249, 0.42);
+  --actx: #caa8fb;
+  --on-ac: #211a2b;
+  --ok: #50fa7b;
+  --okbg: rgba(80, 250, 123, 0.12);
+  --wn: #f1fa8c;
+  --wnbg: rgba(241, 250, 140, 0.12);
+  --er: #ff5555;
+  --erbg: rgba(255, 85, 85, 0.12);
+  --inf: #8be9fd;
+  --infbg: rgba(139, 233, 253, 0.12);
+  --pur: #ff79c6;
+  --purbg: rgba(255, 121, 198, 0.12);
+  --addbg: rgba(80, 250, 123, 0.08);
+  --delbg: rgba(255, 85, 85, 0.08);
+}
+
+[data-theme="nord"] {
+  --bg: #2e3440;
+  --panel: #3b4252;
+  --panel2: #353c4a;
+  --hover: #434c5e;
+  --active: #4c566a;
+  --bd: #434c5e;
+  --bd2: #5e6a80;
+  --tx: #eceff4;
+  --tx2: #d8dee9;
+  --tx3: #9aa6b8;
+  --ac: #88c0d0;
+  --ac-hover: #78b0c0;
+  --ac-active: #669cab;
+  --acbg: rgba(136, 192, 208, 0.14);
+  --acbd: rgba(136, 192, 208, 0.42);
+  --actx: #8fbcbb;
+  --on-ac: #26323b;
+  --ok: #a3be8c;
+  --okbg: rgba(163, 190, 140, 0.13);
+  --wn: #ebcb8b;
+  --wnbg: rgba(235, 203, 139, 0.13);
+  --er: #bf616a;
+  --erbg: rgba(191, 97, 106, 0.13);
+  --inf: #81a1c1;
+  --infbg: rgba(129, 161, 193, 0.13);
+  --pur: #b48ead;
+  --purbg: rgba(180, 142, 173, 0.13);
+  --addbg: rgba(163, 190, 140, 0.09);
+  --delbg: rgba(191, 97, 106, 0.09);
+}
+
+[data-theme="solarized"] {
+  --bg: #002b36;
+  --panel: #073642;
+  --panel2: #0a3e4a;
+  --hover: #0d4652;
+  --active: #15515d;
+  --bd: #164853;
+  --bd2: #2d6670;
+  --tx: #eee8d5;
+  --tx2: #b8b39f;
+  --tx3: #7f8c86;
+  --ac: #2aa198;
+  --ac-hover: #238c84;
+  --ac-active: #1d766f;
+  --acbg: rgba(42, 161, 152, 0.14);
+  --acbd: rgba(42, 161, 152, 0.42);
+  --actx: #46b9b0;
+  --on-ac: #fdf6e3;
+  --ok: #859900;
+  --okbg: rgba(133, 153, 0, 0.13);
+  --wn: #b58900;
+  --wnbg: rgba(181, 137, 0, 0.13);
+  --er: #dc322f;
+  --erbg: rgba(220, 50, 47, 0.13);
+  --inf: #268bd2;
+  --infbg: rgba(38, 139, 210, 0.13);
+  --pur: #6c71c4;
+  --purbg: rgba(108, 113, 196, 0.13);
+  --addbg: rgba(133, 153, 0, 0.09);
+  --delbg: rgba(220, 50, 47, 0.09);
+}
+
+[data-theme="custom"] {
+  --bg: var(--custom-bg);
+  --panel: var(--custom-panel);
+  --panel2: color-mix(in srgb, var(--custom-panel) 90%, var(--custom-tx));
+  --hover: color-mix(in srgb, var(--custom-panel) 82%, var(--custom-tx));
+  --active: color-mix(in srgb, var(--custom-panel) 72%, var(--custom-ac));
+  --bd: color-mix(in srgb, var(--custom-panel) 78%, var(--custom-tx));
+  --bd2: color-mix(in srgb, var(--custom-panel) 62%, var(--custom-tx));
+  --tx: var(--custom-tx);
+  --tx2: color-mix(in srgb, var(--custom-tx) 72%, var(--custom-bg));
+  --tx3: color-mix(in srgb, var(--custom-tx) 50%, var(--custom-bg));
+  --ac: var(--custom-ac);
+  --ac-hover: color-mix(in srgb, var(--custom-ac) 84%, black);
+  --ac-active: color-mix(in srgb, var(--custom-ac) 70%, black);
+  --acbg: color-mix(in srgb, var(--custom-ac) 14%, transparent);
+  --acbd: color-mix(in srgb, var(--custom-ac) 44%, transparent);
+  --actx: color-mix(in srgb, var(--custom-ac) 82%, white);
+  --on-ac: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+body {
+  background: var(--bg);
+  color: var(--tx);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  font-size: 13px;
+  line-height: 1.45;
+  user-select: none;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--bd2);
+  border-radius: 6px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+::-webkit-scrollbar-corner,
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+input,
+textarea,
+button,
+select {
+  font-family: inherit;
+}
+input:focus,
+textarea:focus {
+  outline: none;
+}
+button:focus-visible,
+a:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid var(--ac);
+  outline-offset: 2px;
+}
+.input:focus-visible {
+  border-color: var(--acbd);
+  box-shadow: 0 0 0 2px var(--acbg);
+}
+.focus-surface:focus-within {
+  border-color: var(--acbd);
+  box-shadow: inset 0 -1px 0 var(--acbd);
+}
+a {
+  color: var(--actx);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+@keyframes gspin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.gspin {
+  display: inline-block;
+  animation: gspin 0.8s linear infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+/* Reusable primitives matching the design language */
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center gap-[6px] rounded border border-bd2 bg-panel2 px-[10px] py-[4px] text-[12px] text-tx cursor-pointer hover:bg-hov;
+  }
+  .btn-sm {
+    @apply inline-flex items-center justify-center gap-[5px] rounded-[4px] border border-bd2 bg-transparent px-[9px] py-[2px] text-[11px] text-tx2 cursor-pointer hover:bg-hov;
+  }
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-[6px] rounded border border-transparent bg-ac px-[12px] py-[4px] text-[12px] font-semibold text-on-ac cursor-pointer;
+  }
+  .btn-danger {
+    @apply inline-flex items-center justify-center gap-[6px] rounded border border-[rgba(224,96,93,.4)] bg-transparent px-[9px] py-[3px] text-[11.5px] text-er cursor-pointer hover:bg-erbg;
+  }
+  .btn-accent {
+    @apply inline-flex items-center justify-center gap-[5px] rounded-[4px] border border-acbd bg-acbg px-[10px] py-[2px] text-[11px] text-actx cursor-pointer;
+  }
+  .icon-btn {
+    @apply inline-flex items-center justify-center rounded border-0 bg-transparent px-[8px] py-[5px] text-[13px] text-tx2 cursor-pointer hover:bg-hov;
+  }
+  .action-sm {
+    @apply h-7 px-[9px] py-0 text-[11px];
+  }
+  .action-md {
+    @apply h-8 px-[10px] py-0 text-[12px];
+  }
+  .section-label {
+    @apply text-[10.5px] font-bold tracking-[.07em] text-tx3;
+  }
+  .card {
+    @apply overflow-hidden rounded-md border border-bd bg-panel;
+  }
+  .input {
+    @apply rounded border border-bd bg-bg px-[9px] py-[5px] text-[12px] text-tx;
+  }
+  .chip {
+    @apply rounded-[4px] px-[7px] py-[1px] text-[10.5px] whitespace-nowrap;
+  }
+}
+
+.btn-primary:hover:not(:disabled) {
+  background: var(--ac-hover);
+}
+.btn-primary:active:not(:disabled) {
+  background: var(--ac-active);
+}

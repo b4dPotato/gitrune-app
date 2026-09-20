@@ -1,0 +1,40 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "Gitrune",
+  "version": "0.1.0",
+  "identifier": "dev.eduard.gitapp",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "devUrl": "http://localhost:5173",
+    "beforeBuildCommand": "npm run build",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "Gitrune",
+        "width": 1440,
+        "height": 900,
+        "minWidth": 900,
+        "minHeight": 600,
+        "theme": "Dark"
+      }
+    ],
+    "security": {
+      "csp": "default-src 'self'; style-src 'self' 'unsafe-inline'"
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "icon": [
+      "icons/brand-v1/32x32.png",
+      "icons/brand-v1/48x48.png",
+      "icons/brand-v1/128x128.png",
+      "icons/brand-v1/128x128@2x.png",
+      "icons/brand-v1/512x512.png",
+      "icons/brand-v1/icon.icns",
+      "icons/brand-v1/icon.ico"
+    ]
+  }
+}

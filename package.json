@@ -1,0 +1,62 @@
+{
+  "name": "gitrune",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Gitrune — a professional desktop Git client",
+  "license": "Apache-2.0",
+  "author": "Gitrune contributors",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b4dPotato/gitrune-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/b4dPotato/gitrune-app/issues"
+  },
+  "homepage": "https://github.com/b4dPotato/gitrune-app#readme",
+  "engines": {
+    "node": ">=22.19.0",
+    "npm": ">=10.9.0"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "format": "prettier --write \"src/**/*.{ts,tsx,css}\" \"docs/**/*.md\" \".github/**/*.{md,yml,yaml}\" \"*.{json,md}\"",
+    "format:check": "prettier --check \"src/**/*.{ts,tsx,css}\" \"docs/**/*.md\" \".github/**/*.{md,yml,yaml}\" \"*.{json,md}\"",
+    "rust:fmt": "cargo fmt --manifest-path src-tauri/Cargo.toml --all -- --check",
+    "rust:clippy": "cargo clippy --locked --manifest-path src-tauri/Cargo.toml --all-targets -- -D warnings",
+    "rust:test": "cargo test --locked --manifest-path src-tauri/Cargo.toml",
+    "audit": "npm audit --audit-level=low",
+    "verify": "npm run audit && npm run format:check && npm test && npm run build && npm run rust:fmt && npm run rust:clippy && npm run rust:test",
+    "package:portable": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/package-portable.ps1",
+    "package:windows": "npm run verify && npm run tauri -- build --bundles nsis,msi && npm run package:portable",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.103.1",
+    "@tauri-apps/api": "^2.1.0",
+    "@tauri-apps/plugin-dialog": "^2.7.3",
+    "i18next": "^25.10.10",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-i18next": "^16.6.6"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.1.0",
+    "@testing-library/react": "^16.3.3",
+    "@testing-library/user-event": "^14.6.7",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^6.1.1",
+    "autoprefixer": "^10.6.1",
+    "jsdom": "^29.1.1",
+    "postcss": "^8.5.28",
+    "prettier": "^3.9.8",
+    "tailwindcss": "^3.4.13",
+    "typescript": "~5.6.3",
+    "vite": "^8.3.0",
+    "vitest": "^5.0.1"
+  }
+}
