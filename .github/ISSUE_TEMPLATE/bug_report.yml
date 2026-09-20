@@ -1,0 +1,51 @@
+name: Bug report
+description: Report reproducible incorrect or unsafe behavior
+title: "bug: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Do not include credentials, private keys, access tokens, or confidential repository content. Report vulnerabilities privately using SECURITY.md.
+  - type: input
+    id: version
+    attributes:
+      label: Gitrune version or commit
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Windows, Git, WebView2, and installation/standalone details
+    validations:
+      required: true
+  - type: textarea
+    id: state
+    attributes:
+      label: Repository state
+      description: Branch/upstream and relevant Git state, sanitized of private data
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Sanitized diagnostics
+      render: text
